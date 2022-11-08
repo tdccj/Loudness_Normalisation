@@ -1,10 +1,19 @@
 # coding = utf-8
 # 这是一个帮助响度标准化（正常化、归一化）的程序
 # @tdccj
-import ffmpy3
+import os
+from PySide2 import QtGui,QtWidgets,QtCore
 
-ff = ffmpy3.FFmpeg(
-    inputs={'【高清无水印】希望之花名场面素材 - 1.【高清无水印】希望之花名场面素材(Av795640030,P1).flv': None},
-    outputs={'output.avi': None}
-)
-ff.run()
+def input_file():
+
+
+def view():
+    pass
+    cmd =
+
+def normalisation():
+    pass
+
+
+if __name__ == '__main__':
+    os.system('chcp 65001')
